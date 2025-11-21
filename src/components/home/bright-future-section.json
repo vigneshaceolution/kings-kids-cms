@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_bright_future_sections",
+  "info": {
+    "displayName": "BrightFutureSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

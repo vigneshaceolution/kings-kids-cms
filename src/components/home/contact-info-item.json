@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_contact_info_items",
+  "info": {
+    "displayName": "contact-info-item"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

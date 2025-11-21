@@ -1,0 +1,95 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Header": {
+      "type": "component",
+      "component": "home.header",
+      "repeatable": false
+    },
+    "CoreValues": {
+      "type": "component",
+      "component": "home.core-values",
+      "repeatable": false
+    },
+    "CoreValueItem": {
+      "type": "component",
+      "component": "home.core-value-item",
+      "repeatable": true
+    },
+    "Program": {
+      "type": "component",
+      "component": "home.program",
+      "repeatable": false
+    },
+    "ProgramCard": {
+      "type": "component",
+      "component": "home.program-card",
+      "repeatable": true
+    },
+    "BrightFutureSection": {
+      "type": "component",
+      "component": "home.bright-future-section",
+      "repeatable": false
+    },
+    "BrighterFutureStats": {
+      "type": "component",
+      "component": "home.brighter-future-stats",
+      "repeatable": true
+    },
+    "HeroSection": {
+      "type": "component",
+      "component": "home.hero-section",
+      "repeatable": false
+    },
+    "TeachersSection": {
+      "type": "component",
+      "component": "home.teachers-section",
+      "repeatable": false
+    },
+    "TeachersSectionCard": {
+      "type": "component",
+      "component": "home.teacher-card",
+      "repeatable": true
+    },
+    "ParentFeedbackSection": {
+      "type": "component",
+      "component": "home.parent-feedback-section",
+      "repeatable": false
+    },
+    "ContactSection": {
+      "type": "component",
+      "component": "home.contact-section",
+      "repeatable": false
+    },
+    "ContactSectionItem": {
+      "type": "component",
+      "component": "home.contact-info-item",
+      "repeatable": true
+    },
+    "ParentFeedbacks": {
+      "type": "component",
+      "component": "home.parent-feedbacks",
+      "repeatable": true
+    }
+  }
+}

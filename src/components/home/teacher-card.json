@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_teacher_cards",
+  "info": {
+    "displayName": "teacher-card"
+  },
+  "options": {},
+  "attributes": {
+    "teacherName": {
+      "type": "string"
+    },
+    "teacherRole": {
+      "type": "text"
+    },
+    "teacherImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

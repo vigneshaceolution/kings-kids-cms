@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_parent_feedbacks",
+  "info": {
+    "displayName": "ParentFeedbacks"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "userName": {
+      "type": "text"
+    },
+    "userAvatar": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

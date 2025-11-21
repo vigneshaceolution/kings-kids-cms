@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_brighter_future_stats",
+  "info": {
+    "displayName": "BrighterFutureStats"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "text"
+    },
+    "label": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "suffix": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
